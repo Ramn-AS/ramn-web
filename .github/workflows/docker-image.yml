@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set current date as env variable
-      run: echo "NOW::$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_ENV
+      run: echo "::set-env name=NOW::v$(date +'%Y%m%d.%H%M%S')"
       
     - uses: actions/checkout@v3
     - name: Build the Docker image
