@@ -1,0 +1,7 @@
+﻿piranha.db*
+wwwroot/files/*
+wwwroot/uploads/*
+data/*
+uploads/*
+files/*
+appsettings.Development.json
